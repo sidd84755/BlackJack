@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+* {
+  font-family: 'Concert One', cursive;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  
+  text-decoration: none;
+  outline: none;
+  border: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body{
+  background-image: url(../Images/bgimg.jpg);
+  background-size: cover;
+}
+.sec1{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.sec1 h1{
+  color: #FBFBFB;
+  font-size: 6rem;
+}
+.sec1 h1 mark{
+  color: #FBFBFB;
+  background-color: #FF5A82;
+  padding: 0.2rem 0.51rem;
+  border-radius: 50%;
+}
+.mbox{
+    width: 100%;
+    text-align: center;
+    
+}
+.mbox h1{
+  font-size: 3rem;
+}
+button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem 4rem;
+    background: #FF5A82;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 2rem;
+  }
+  
+  button:hover {
+    color: #fff;
+    background: #3789DF;
+  }
+p{
+  font-size: 3rem;
+}
